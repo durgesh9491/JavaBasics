@@ -8,6 +8,6 @@ public class ImmutableClassBuilder {
     public static void main(String[] args) {
         User user = new UserBuilder().
                 name("Durgesh").age(15).address("Raebareli").build();
-        System.out.printf("User is : " + user.toString());
+        System.out.println("User is : " + user.toString());
     }
 }
