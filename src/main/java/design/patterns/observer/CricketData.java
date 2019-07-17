@@ -1,8 +1,11 @@
 package design.patterns.observer;
 
+import lombok.Data;
+
 import java.util.HashSet;
 import java.util.Set;
 
+@Data
 public class CricketData implements Subject {
 
     private int runs;

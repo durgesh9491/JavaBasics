@@ -1,5 +1,8 @@
 package design.patterns.observer;
 
+import lombok.Data;
+
+@Data
 public abstract class AbstractObserver {
     protected int runs;
     protected int wickets;

@@ -1,5 +1,8 @@
 package design.patterns.observer;
 
+import lombok.Data;
+
+@Data
 public class DisplayAnalytics extends AbstractObserver implements Observer {
 
     private float runRate;
@@ -19,6 +22,6 @@ public class DisplayAnalytics extends AbstractObserver implements Observer {
 
     private void updateAnalytics() {
         this.runRate = runs / overs;
-        this.predictedScore = (this.runRate) * CricketConstants.ODI_TOTAL_OVERS.getvalue();
+        this.predictedScore = (this.runRate) * CricketConstants.ODI_TOTAL_OVERS.getValue();
     }
 }

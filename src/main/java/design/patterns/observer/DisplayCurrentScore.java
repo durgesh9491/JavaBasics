@@ -1,5 +1,8 @@
 package design.patterns.observer;
 
+import lombok.Data;
+
+@Data
 public class DisplayCurrentScore extends AbstractObserver implements Observer {
 
     @Override
