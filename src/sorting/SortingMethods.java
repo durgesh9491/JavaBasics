@@ -17,7 +17,7 @@ public class SortingMethods {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
 
-        final int idx = 50000000;
+        final int idx = 5000000;
         final int limit = 100000000;
 
         Random random = new Random();
