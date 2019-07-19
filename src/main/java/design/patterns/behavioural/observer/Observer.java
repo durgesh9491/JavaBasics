@@ -1,4 +1,4 @@
-package design.patterns.creational.observer;
+package design.patterns.behavioural.observer;
 
 public interface Observer {
     void update(int runs, int wickets, float overs);

@@ -1,4 +1,4 @@
-package design.patterns.creational.observer;
+package design.patterns.behavioural.observer;
 
 public class DemoCricketObservers {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package design.patterns.creational.observer;
+package design.patterns.behavioural.observer;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
