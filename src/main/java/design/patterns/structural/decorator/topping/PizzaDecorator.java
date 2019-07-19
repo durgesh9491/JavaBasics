@@ -7,7 +7,10 @@ import design.patterns.structural.decorator.pizza.Pizza;
  */
 public interface PizzaDecorator {
     int getCost();
+
     String getDetails();
+
     boolean isNonVegTopping();
+
     void decorate(Pizza pizza);
 }

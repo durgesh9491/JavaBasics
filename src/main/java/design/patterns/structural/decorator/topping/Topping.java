@@ -1,6 +1,5 @@
 package design.patterns.structural.decorator.topping;
 
-import design.patterns.structural.decorator.pizza.Pizza;
 import lombok.AllArgsConstructor;
 
 /**
