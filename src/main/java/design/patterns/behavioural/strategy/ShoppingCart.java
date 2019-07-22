@@ -29,6 +29,7 @@ public class ShoppingCart implements Cart {
         mode.pay(getBill());
     }
 
+    @Override
     public int getBill() {
         return items.stream().map(Item::getPrice).reduce(0, Integer::sum);
     }
