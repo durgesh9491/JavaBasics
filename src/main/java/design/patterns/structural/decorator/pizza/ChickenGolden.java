@@ -21,6 +21,6 @@ public class ChickenGolden extends Pizza {
 
     @Override
     public boolean isNonVegPizza() {
-        return this.isNogveg;
+        return this.isNogVeg;
     }
 }
