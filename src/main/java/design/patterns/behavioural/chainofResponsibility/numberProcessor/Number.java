@@ -1,4 +1,4 @@
-package design.patterns.behavioural.chainofResponsibility;
+package design.patterns.behavioural.chainofResponsibility.numberProcessor;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

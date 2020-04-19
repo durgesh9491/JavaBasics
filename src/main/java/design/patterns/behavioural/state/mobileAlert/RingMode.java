@@ -1,4 +1,4 @@
-package design.patterns.behavioural.state;
+package design.patterns.behavioural.state.mobileAlert;
 
 /**
  * @author durgesh.soni

@@ -1,4 +1,4 @@
-package design.patterns.structural.adapter;
+package design.patterns.structural.adapter.birdAdapter;
 
 /**
  * @link https://refactoring.guru/design-patterns/adapter
