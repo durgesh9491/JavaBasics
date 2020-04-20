@@ -14,7 +14,7 @@ public abstract class AtmDispenser {
 
     protected abstract void dispense(Currency currency);
 
-    protected void dispenseNext(Currency currency) {
+    protected final void dispenseNext(Currency currency) {
         if (Objects.nonNull(nextDispenser)) {
             nextDispenser.dispense(currency);
         }
